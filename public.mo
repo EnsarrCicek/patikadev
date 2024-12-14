@@ -26,6 +26,6 @@ public func bolme(e:Int): async ?Int{
 };
 //Temizle
 public func temizle():async (){
-    hucre:=0;
+    hucre:=0 ;
 };
 };
