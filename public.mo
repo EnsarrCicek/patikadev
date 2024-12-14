@@ -1,4 +1,4 @@
-actor hesap_makinesi {
+  actor hesap_makinesi {
   var hucre: Int = 0;
   //Toplama
   public func toplama(e : Int) : async Int {
