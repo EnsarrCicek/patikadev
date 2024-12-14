@@ -11,7 +11,7 @@ actor hesap_makinesi {
     hucre
   };
   //Çarpma
-   public func carpma(e:Int): async Int{
+  public func carpma(e:Int): async Int{
     hucre *=e;
     hucre
   };
