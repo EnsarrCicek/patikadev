@@ -16,17 +16,16 @@ actor hesap_makinesi {
     hucre
   };
   //Bölme
-   public func bolme(e:Int): async ?Int{
+  public func bolme(e:Int): async ?Int{
     if(e==0){
       null
     }else{
       hucre/=e;
       ?hucre
-    }:
-
+    };
+  };
     //Temizle
-    public func temizle():async (){
+  public func temizle():async (){
       hucre:=0;
-    };
   };
-};
+  };
